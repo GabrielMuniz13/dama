@@ -14,7 +14,7 @@ function generateArrayTabuleiro(){
                     game[i][j] = {
                         positionValid: true,
                         classStyle: 'preto',
-                        ocuped: jogador(i),
+                        data: jogador(i),
                     }
                 }
             }else{

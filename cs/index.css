@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#tabuleiro{
+    display: flex;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.squareConteiner{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tampa{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.preto{
+    background-color: #000;
+}
+.branco{
+    background-color: #FFF;
+}
+.jogador1{
+    background-color: #2b7a3a
+}
+.jogador2{
+    background-color: #905252;
+}
