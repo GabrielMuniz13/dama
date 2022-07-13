@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 #tabuleiro{
     display: flex;
@@ -29,8 +30,20 @@
     background-color: #FFF;
 }
 .jogador1{
-    background-color: #2b7a3a
+    background-color: #215029
 }
 .jogador2{
     background-color: #905252;
+}
+.jogador1_focus{
+    background-color: #00ff2f;
+}
+.jogador2_focus{
+    background-color: #da1b1b;
+}
+.positionNext{
+    width: 39px;
+    height: 39px;
+    border-radius: 100%;
+    background-color: #ffffff;
 }

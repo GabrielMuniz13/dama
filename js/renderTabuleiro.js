@@ -14,7 +14,7 @@ function renderTabuleiro(game){
             if(game[i][j].positionValid && game[i][j].data.ocuped){
                 const style = 'jogador'+game[i][j].data.playr+' tampa';
                 const square = document.getElementById('square_'+i+j);
-                square.innerHTML = "<div class='"+style+"' onclick='testeAlert("+i+','+j+")'></div>"
+                square.innerHTML = "<div class='"+style+"' onclick='focusTampa("+i+','+j+")'></div>"
             }
         }
     }
